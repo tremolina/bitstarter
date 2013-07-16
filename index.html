@@ -33,7 +33,19 @@
         width: 960px;
       }
       
-      /* PASO 1 */
+      /* PASO 2 */
+      
+      /* All form factors */
+      
+      /* Main body and headings */
+      body{
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      }
+      .heading, .subheading{
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+        text-align: center;
+      }
+      
       p.lead {
         padding-top: 1.5%;
         font-size: 24px;
@@ -43,7 +55,7 @@
         font-size: 18px;
         line-height: 24px;
       }
-      /* FIN PASO 1*/
+      /* FIN PASO 2*/
       
       
       .navigation, .pitch, .section1, .section2, .faq, .footer {
@@ -92,10 +104,18 @@
     </div>
     
     <div class="container">
-      <div class="row navigation">
-        <div class="span2 logo">
-          Logo
+      <div class="row-fluid heading">
+        <div class="span12">
+          <h1>Product</h1>
         </div>
+      </div>
+      <div class="row-fluid subheading">
+        <div class="span12">
+          <p class="lead">One sentence description.</p>
+        </div>
+      </div>
+      
+      
         <div class="span6 blank">
           Blank
         </div>
